@@ -1,0 +1,226 @@
+.box{
+  width: 100%;
+  min-width: 1346px;
+}
+.container{
+  width: 70%;
+  min-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+.aim{
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
+  top: 240px;
+}
+.aim h1{
+  font-size: 40px;
+  font-weight: normal;
+}
+.aim-list{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+}
+.aim-list p{
+  font-size: 30px;
+  margin: 20px 0;
+}
+.aim-list img{
+  width: 240px;
+  height: 180px;
+}
+.curriculum{
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
+  top: 240px;
+}
+.curriculum h1{
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+  margin: 0;
+}
+.curriculum-list{
+  list-style: none;
+  padding: 0;
+}
+.curriculum-list img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  float: left;
+}
+.curriculum-list li{
+  clear: both;
+  height: 120px;
+}
+.curriculum-list li+li{
+  margin-top: 40px;
+}
+.curriculum-info{
+  margin-left: 150px;
+  padding: 4px 0;
+}
+.curriculum-info h2{
+  font-size: 28px;
+  font-weight: normal;
+  margin: 0px;
+}
+.curriculum-info p{
+  font-size: 16px;
+  line-height: 20px;
+  margin: 6px 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+}
+.enroll{
+  width: 90%;
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  margin-top: -150px;
+}
+.enroll-box{
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  padding: 20px 35px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 9px 15px 4px #e7e7e7;
+  z-index: 2;
+}
+.success{
+  display: none;
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 4px;
+  padding: 10px 0;
+}
+.cover{
+  position: absolute;
+  font-size: 10px;
+  bottom: 10px;
+  right: 20px;
+  color: #999;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.enroll-box h3{
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+.enroll-box input{
+  width: 100%;
+  background-color: #eee;
+  height: 54px;
+  border-radius: 10px;
+  margin-top: 15px;
+  border: 0;
+  outline: 0;
+}
+.enroll-info{
+  position: absolute;
+  top: 133px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #a2fe8c;
+  border-radius: 20px;
+  margin-top: 20px;
+  z-index: 1;
+}
+.university,.date,.email{
+  margin-right: 24px;
+}
+.university{
+  flex: 6;
+}
+.date{
+  flex: 4;
+}
+.email{
+  flex: 6;
+}
+.email input{
+  font-size: 20px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.email input:focus{
+  box-shadow: 0 0 8px #aaa;
+}
+.enroll-btn{
+  flex: 4;
+  height: 54px;
+  background-color: #2499ee;
+  border-radius: 30px;
+  border: 0;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 39px;
+}
+.enroll-btn:hover{
+  font-size: 28px;
+}
+.enroll-btn:active{
+  box-shadow: 0px 0px 10px 2px #2499ee;
+}
+.class-nav{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  float: right;
+}
+.nav-tag{
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  border-bottom: 2px solid #b5b5b5;
+  color: #b5b5b5;
+}
+.nav-tag:hover{
+  cursor: pointer;
+  color: #fff;
+  background: -webkit-linear-gradient(bottom, #4737a1 0%, #b0c1f5 100%);
+  background: -moz-linear-gradient(bottom, #4737a1 0%, #b0c1f5 100%);
+  background: -o-linear-gradient(bottom, #4737a1 0%, #b0c1f5 100%);
+  background: -ms-linear-gradient(bottom, #4737a1 0%, #b0c1f5 100%);
+}
+.nav-tag.nav-tag-active{
+  color: #000;
+  border-bottom-color: #000;
+  font-weight: bold;
+}
+.curriculum-tag span{
+  display: inline-block;
+  font-size: 10px;
+  color: #fff;
+  padding: 2px 10px;
+  border-radius: 10px;
+  margin-right: 6px;
+}
+.tag-html{
+  background-color: #a8bcfd;
+}
+.tag-css{
+  background-color: #3c6b3d;
+}
+.tag-JavaScript{
+  background-color: #30496a;
+}
+footer{
+  position: relative;
+  top: 240px;
+}

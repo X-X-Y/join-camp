@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>百度前端训练营</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <header>
+    <iframe frameborder="0" class="header" src="pages/header.html" scrolling="no"></iframe>
+  </header>
+  
+  <div class="box">
+    <div class="container">
+      
+      <div class="enroll">
+        <div class="enroll-box">
+          
+          <div class="university">
+            <h3>选择您的学校</h3>
+            <dropdown-unity
+              row='5'
+              col='2'
+              width='100%'
+              height='54px'
+              color='#000'
+              background='#eee'
+              borderWidth='0'
+              borderColor='#999'
+              borderRadius='10px'
+              margin='15px 0px 0px 0px'
+              fontSize='20px'
+            >--请选择--</dropdown-unity>
+          </div>
+          
+          <div class="date">
+            <h3>选择您入学年份</h3>
+            <dropdown-year
+              start='1940'
+              end='2040'
+              row='4'
+              col='5'
+              width='100%'
+              height='54px'
+              color='#000'
+              background='#eee'
+              borderWidth='0'
+              borderColor='#999'
+              borderRadius='10px'
+              margin='15px 0px 0px 0px'
+              fontSize='20px'
+            >--请选择--</dropdown-year>
+          </div>
+
+          <div class="email">
+            <h3>输入您的电子邮箱</h3>
+            <input id="email" type="text" placeholder="yourname@host.com">
+          </div>
+
+          <button class="enroll-btn">报名</button>
+          
+          <div class="success">
+            您已完成报名，开始您的学习之旅吧！
+            <a href="javascript: ;" class="cover">重新报名</a>
+          </div>
+        </div>
+        
+        <prompt-box
+          display='none'
+          width='100%'
+          color='#000'
+          borderRadius='20px'
+          margin='20px 0px 0px 0px'
+          fontSize='20px'
+          top='133px'
+          value=''
+        ></prompt-box>
+
+      </div>
+      
+      <div class="aim">
+        <h1>我们的宗旨</h1>
+        <ul class="aim-list">
+          <li>
+            <p>自律独立思考</p>
+            <img src="images/aim01.JPG">
+          </li>
+          <li>
+            <p>实践</p>
+            <img src="images/aim02.JPG">
+          </li>
+          <li>
+            <p>总结回顾</p>
+            <img src="images/aim03.JPG">
+          </li>
+          <li>
+            <p>分享交流</p>
+            <img src="images/aim04.JPG">
+          </li>
+        </ul>
+      </div>
+      
+      <div class="curriculum">
+        <h1>课程安排</h1>
+        
+        <ul class="class-nav">
+          <li class="nav-tag nav-tag-active" data-tag="all">全部</li>
+          <li class="nav-tag" data-tag="HTML">HTML</li>
+          <li class="nav-tag" data-tag="CSS">CSS</li>
+          <li class="nav-tag" data-tag="JavaScript">JavaScript</li>
+        </ul>
+        
+        <ul class="curriculum-list"></ul>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <iframe frameborder="0" class="footer" src="pages/footer.html" scrolling="no"></iframe>
+  </footer>
+  
+  <script type="text/javascript" src="js/curriculum.js"></script>
+  <script type="text/javascript" src="js/enrollCheck.js"></script>
+  <script type="module">
+    import './js/dropdowns.js';
+    import './js/prompt.js';
+  </script>
+</body>
+</html>

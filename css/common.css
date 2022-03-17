@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header,footer{
+  min-width: 1346px;
+}
+.header{
+  width: 100%;
+  padding: 0;
+  height: 480px;
+  border: 0;
+}
+.footer{
+  width: 100%;
+  padding: 0;
+  height:270px;
+  border: 0;
+}
